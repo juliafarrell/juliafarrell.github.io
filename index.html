@@ -1,169 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Webstudio responsive template</title>
-  </head>
-  <body>
-    <style>
-      a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,input,ins,kbd,label,legend,li,mark,main,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;border:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}nav ol,nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-spacing:0;border-collapse:collapse}button,input[type=submit]{cursor:pointer}
-      *::selection{
-      	background: #f0f0f0;
-      	color: #0f0f0f;
-      }
-      *::-moz-selection{
-      	background: #f0f0f0;
-      	color: #0f0f0f;
-      }
-      html, body{
-      	width: 100%;
-      	height: 100%;
-      	margin: 0;
-      	padding: 0;
-      }
-      body {
-      	display: block;
-      	position: relative;
-      	overflow: hidden;
-      	text-align: center;
-      }
-      .background {
-      	position: fixed;
-      	top: 0;
-      	right: 0;
-      	bottom: 0;
-      	left: 0;
-      	z-index:1;
-      }
-      .background_gradient {
-      	background: #ffa500;
-      	background: -webkit-linear-gradient(170deg, #f1c40f, #ffa500);
-      	   background: -moz-linear-gradient(170deg, #f1c40f, #ffa500);
-      		 background: -o-linear-gradient(170deg, #f1c40f, #ffa500);
-      			background: linear-gradient(170deg, #f1c40f, #ffa500);
-      	background-attachment: fixed;
-      }
-      .background_image {
-      	-webkit-background-size: cover;
-      		 -o-background-size: cover;
-      			background-size: cover;
-      	background-position: center center;
-      	background-repeat: no-repeat;
-      	background-attachment: fixed;
-      	background-image: url('static/images/bg/index_bg.jpg');
-      }
-      .background_blur {
-      	filter: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg"><filter id="blur"><feGaussianBlur stdDeviation="5" /></filter></svg>#blur');
-      	-webkit-filter: blur(5px);
-      	filter: blur(5px);
-      	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');
-      }
-      .overlay {
-      	position: fixed;
-      	top: 0;
-      	right: 0;
-      	bottom: 0;
-      	left: 0;
-      	z-index:10;
-      	overflow: auto;
-      }
-      .overlay_dark {
-      	background-color: transparent;
-      	background-color: rgba(15, 15, 15, 0.45);
-      	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
-      	zoom: 1;
-      	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAAAZSURBVHjaYmCAAGM0GjfHGEMGAAAA//8DACm0ATMe8beGAAAAAElFTkSuQmCC");
-      	background-repeat: repeat;
-      	background-attachment: fixed;
-      	box-shadow: inset 0 3px 3px -2px #0f0f0f, inset 0 -3px 3px -2px #0f0f0f;
-      }
-      .project {
-      	-moz-box-sizing: border-box;
-      	-webkit-box-sizing: border-box;
-      	box-sizing: border-box;
-      	display: block;
-      	width: 100%;
-      	max-width: 1200px;
-      	margin: 0 auto;
-      	text-align: center;
-      }
-      .project__name {
-      	display: block;
-      	width: 100%;
-      	max-width: 480px;
-      	margin: 8% auto 4%;
-      	padding: 0 2%;
-      	font-family: Tahoma, Verdana, Arial, sans-serif;
-      	font-size: 45px;
-      	line-height: 1;
-      	color: #f0f0f0;
-      	text-align: center;
-      }
-      .project__name_middle {
-      	margin-top: 20%;
-      }
-      .project__name_fit {
-      	max-width: 100%;
-      	font-size: 200px;
-      }
-      .project__name_shadow {
-      	text-shadow: 1px 1px 2px #0f0f0f;
-      }
-      .project__list{
-      	display: inline-block;
-      	list-style: none;
-      	color: #f0f0f0;
-      	text-align: center;
-      }
-      .project__item{
-      	position: relative;
-      	font-family: Georgia, Times, "Times New Roman", serif;
-      	font-size: 25px;
-      	line-height: 1;
-      	text-align: left;
-      	color: #f0f0f0;
-      }
-      .project__item.is-checked:before{
-      	content: "\2713";
-      	position: absolute;
-      	right: 100%;
-      }
-      .project__item ul,
-      .project__item ol{
-      	margin-left: 40px;
-      	margin-bottom: 20px;
-      	list-style: none;
-      }
-      .project__link{
-      	display: inline-block;
-      	margin-bottom: 20px;
-      	color: #f0f0f0;
-      	outline: none;
-      	text-decoration: none;
-      	white-space: nowrap;
-      	border-bottom: 1px solid #f0f0f0;
-      }
-      .project__link_empty{
-      	display: block;
-      	cursor: default;
-      	border: none;
-      	color: #ccc;
-      }
-      .project__link:hover{
-      	border-color: transparent;
-      }
-    </style>
-    <div class="background background_image background_blur"></div>
-    <div class="overlay overlay_dark">
-      <main class="project">
-        <h1 class="project__name project__name_shadow">Webstudio responsive template</h1>
-        <ul class="project__list">
-          <li class="project__item"><a class="project__link" href="home.html">Home Page</a></li>
-        </ul>
-      </main>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>norma</title>
+  <meta name="description" content="Page-specific description">
+  <meta name="keywords" content="Page-specific keywords">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic" rel="stylesheet"
+        type="text/css">
+  <link rel="stylesheet" href="static/css/screen.min.css">
+  <link rel="stylesheet" href="static/css/custom.min.css">
+</head>
+<body>
+<!-- $Page header-->
+<header class="page-header">
+  <div class="page-header__inner">
+    <!-- $Page navigation-->
+    <nav class="page-nav">
+      <a class="page-nav__link" href="#">Home</a>
+      <a class="page-nav__link" href="https://www.bit.ly/breasthealthsurvey">Survey</a>
+    </nav>
+    <!-- $Actions-->
+    <div class="actions">
+      <a class="actions__link" href="#"></a><!--can add login here when needed-->
     </div>
-    <script>!function(){var n=function(n,t,e){n.addEventListener?n.addEventListener(t,e,!1):n.attachEvent("on"+t,e)},t=function(n,t){for(key in t)t.hasOwnProperty(key)&&(n[key]=t[key]);return n};window.fitText=function(e,i,o){if(e.length){var a=t({minFontSize:-1/0,maxFontSize:1/0},o),r=function(t){var e=i||1,o=function(){t.style.fontSize=Math.max(Math.min(t.clientWidth/(10*e),parseFloat(a.maxFontSize)),parseFloat(a.minFontSize))+"px"};o(),n(window,"resize",o)};if(e.length)for(var f=0;f<e.length;f++)r(e[f]);else r(e);return e}}}(),function(){window.fitText(document.getElementsByClassName("project__name_fit"),1)}();</script>
-  </body>
+  </div>
+</header>
+<!-- $Promo-->
+<section class="promo">
+  <div class="promo__inner">
+    <div class="promo__header">
+      <div class="promo__logo">
+        <!-- $Logo-->
+        <h1 class="logo"><span class="logo__text"></span></h1>
+      </div>
+      <!--div class="promo__proposal"></div-->
+    </div>
+  </div>
+</section>
+<!-- $Page content-->
+<main class="page-content">
+  <div class="page-content__inner">
+    <div class="top">
+      <!-- $Choice-->
+      <div class="choice">
+        <h2 class="choice__title">What is Norma?</h2>
+        <p class="choice__text">Kombucha butcher umami ennui lomo, brunch cronut vegan. Brooklyn master cleanse
+          shabby chic, you probably haven't heard of them +1 glossier keytar hashtag 90's la croix offal
+          kickstarter vaporware gochujang. Microdosing chartreuse copper mug, schlitz keffiyeh locavore pabst poke
+          shaman enamel pin meh single-origin coffee flannel chillwave tbh. Fixie +1 williamsburg iPhone mlkshk
+          selvage freegan. </p>
+      </div>
+      <!-- $Projects-->
+      <div class="projects">
+        <h2 class="projects__title">Our Product</h2>
+        <div class="project section">
+          <a class="projects__link projects__link_first" href="#" title="App Home">App Home</a>
+          <a class="projects__link projects__link_second" href="#" title="IoT Button">IoT Button</a>
+          <a class="projects__link projects__link_third" href="#" title="App Icon">App Icon</a>
+          <a class="projects__link projects__link_fourth" href="#" title="Entry View">Entry View</a>
+        </div>
+      </div>
+      <!-- $Request-->
+      <div class="request">
+        <h2 class="request__title">Learn More</h2>
+        <p class="request__text">Does our vision resonate with you? We'd love to hear your feedback!<a
+                class="request__btn" href="#">Contact us!</a> <!--FIXME: link to email--></p>
+      </div>
+    </div>
+    <div class="bottom">
+      <!-- $Testimonials-->
+      <div class="testimonials">
+        <h2 class="testimonials__title">Our Team</h2>
+        <ul class="testimonials__list">
+          <li class="testimonials__item"><img class="testimonials__avatar" src="static/images/team/amelia.jpg"
+                                              alt="coming soon">
+            <p class="testimonials__text">Amelia Coomber</p>
+            <p class="testimonials__text">A passionate and overly enthusiastic creator, Amelia has spent her
+              last 4 years studying Computer science, and founding companies in the emerging breast health
+              and tech industry. She acts as an effective liaison for high level communications between
+              engineering and business. Amelia is all about transforming awareness into action and will
+              use her breast health company experience to implement Norma’s vision, mission, and overall
+              direction.</p>
+          </li>
+          <li class="testimonials__item"><img class="testimonials__avatar" src="static/images/team/julia.jpg"
+                                              alt="coming soon">
+            <p class="testimonials__text">Julia Farrell</p>
+            <p class="testimonials__text">bio coming soon!</p>
+          </li>
+          <li class="testimonials__item"><img class="testimonials__avatar" src="static/images/team/Lauryn.jpg"
+                                              alt="coming soon">
+            <p class="testimonials__text">Lauryn Dempsey</p>
+            <p class="testimonials__text">Affectionately referred to as ‘Team Mom’, Lauryn spent nearly a decade
+              in the Navy working in high-level strategic communication and PR roles. Currently in the midst
+              of a career change, she’s now studying design thinking and UX/UI. Lauryn’s all about
+              incorporating design thinking to inspire innovation and putting user needs at the forefront of
+              Norma’s product development. </p>
+          </li>
+          <li class="testimonials__item"><img class="testimonials__avatar" src="static/images/team/miriam.jpg"
+                                              alt="coming soon">
+            <p class="testimonials__text">Miriam Haart</p>
+            <p class="testimonials__text">A true believer in growth mindset and achieving the impossible,
+              Miriam built her first of ten iOS apps at age 13 by watching youtube videos on app
+              development. After discovering her passion for solving problems through the use of
+              technology, she graduated High School at age 16 and moved on her own to San Francisco to
+              pursue her passions of Computer Science at Make School Product College. She is the
+              co-director of the Designership Institute at Stanford where she builds initiatives to help
+              students realize their potential and achieve their dreams. Miriam takes Norma to the moon
+              and back with her ideas that have no limit and her ability to implement and execute
+              fearlessly. </p>
+          </li>
+          <li class="testimonials__item"><img class="testimonials__avatar" src="static/images/team/rachael.jpg"
+                                              alt="coming soon">
+            <p class="testimonials__text">Rachael Medialdea</p>
+            <p class="testimonials__text">bio coming soon!</p>
+          </li>
+          <li class="testimonials__item"><img class="testimonials__avatar" src="static/images/team/sienna.jpg"
+                                              alt="coming soon">
+            <p class="testimonials__text">Sienna Magee</p>
+            <p class="testimonials__text">bio coming soon!</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- $Page footer-->
+<footer class="page-footer">
+  <div class="page-footer__inner">
+    <div class="page-footer__copyright"><br>All rights reserved.
+    </div>
+    <!-- $Social-->
+    <div class="social"><span class="social__title">Follow us:</span>
+      <ul class="social__list">
+        <li class="social__item"><a class="social__link social__link_fb" href="#" title="Facebook">Facebook</a>
+        </li>
+        <li class="social__item"><a class="social__link social__link_tw" href="#" title="Twitter">Twitter</a>
+        </li>
+        <li class="social__item"><a class="social__link social__link_gplus" href="#" title="Google+">Google+</a>
+        </li>
+        <li class="social__item"><a class="social__link social__link_in" href="#" title="Linkedin">Linkedin</a>
+        </li>
+        <li class="social__item"><a class="social__link social__link_rss" href="#" title="Rss feed">Rss feed</a>
+        </li>
+        <li class="social__item"><a class="social__link social__link_fl" href="#" title="Flickr">Flickr</a></li>
+        <li class="social__item"><a class="social__link social__link_you" href="#" title="YouTube">YouTube</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
 </html>
