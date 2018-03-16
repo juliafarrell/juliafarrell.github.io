@@ -1368,6 +1368,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .works_area .works_left_img img {
   max-width: 100%;
+  height: 30rem;
 }
 
 .works_area .works_right_content {
