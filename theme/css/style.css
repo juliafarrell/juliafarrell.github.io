@@ -108,6 +108,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+#mc_embed_signup {
+  background:#9b59b6;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+}
+
 /* Main title css
 ============================================================================================ */
 .main_title {
