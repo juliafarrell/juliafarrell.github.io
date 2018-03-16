@@ -2,66 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f8da89-fddf-49e7-83e7-268375aba159" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/img/header-slider/homescreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/img/header-slider/journalentry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/img/header-slider/onboarding.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/banner/banner-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/benefits/benefits-left-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/benefits/benefits-video-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/benefits/benefits-video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-details-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-details-part-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-details-part-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-details-part-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-list/blog-list-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-list/blog-list-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-list/blog-list-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-list/blog-list-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-list/blog-list-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-list/blog-list-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-list/blog-list-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/blog-list/blog-list-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/recent-post/recent-post-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/recent-post/recent-post-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/recent-post/recent-post-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/blog/recent-post/recent-post-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/clients/clients-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/comment-user/comment-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/comment-user/comment-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/comment-user/comment-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/feature-m-slider/feature-m-slider-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/feature-m-slider/feature-m-slider-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/feature-m-slider/feature-m-slider-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/feature-m-slider/feature-m-slider-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/feature-m-slider/feature-m-slider-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/feature-m-slider/feature-m-slider-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/feature-m-slider/feature-m-slider-shap.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/header-slider/slider-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/header-slider/slider-m-display-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/header-slider/slider-m-display-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/latest-blog/latest-blog-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/latest-blog/latest-blog-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/latest-blog/latest-blog-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/price-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/question-img-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/question-img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/right_detail_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-3d-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-3d-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-3d-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-3d-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-3d-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-3d-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-3d-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/screenshot/screenshot-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/works/work-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/img/works/work-2.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/img/header-slider/win.png" afterPath="$PROJECT_DIR$/theme/img/header-slider/oldPhotos/win.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/theme/img/header-slider/winn.png" afterPath="$PROJECT_DIR$/theme/img/header-slider/oldPhotos/winn.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -78,14 +18,15 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="165" column="82" lean-forward="false" selection-start-line="165" selection-start-column="82" selection-end-line="165" selection-end-column="82" />
+            <state relative-caret-position="159">
+              <caret line="120" column="65" lean-forward="false" selection-start-line="120" selection-start-column="65" selection-end-line="120" selection-end-column="65" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -762,12 +703,12 @@
       <workItem from="1519147162681" duration="843000" />
       <workItem from="1519707905727" duration="1331000" />
       <workItem from="1520804244360" duration="139000" />
-      <workItem from="1521220803405" duration="578000" />
+      <workItem from="1521220803405" duration="854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10033000" />
+    <option name="totallyTimeSpent" value="10309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -1089,14 +1030,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="165" column="82" lean-forward="false" selection-start-line="165" selection-start-column="82" selection-end-line="165" selection-end-column="82" />
+        <state relative-caret-position="159">
+          <caret line="120" column="65" lean-forward="false" selection-start-line="120" selection-start-column="65" selection-end-line="120" selection-end-column="65" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
