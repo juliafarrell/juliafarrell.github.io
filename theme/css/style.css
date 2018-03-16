@@ -2205,6 +2205,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------------*/
 /* Subscrib area css
 ============================================================================================ */
+.email {
+  outline: auto;
+}
+
+
 .subscrib_area {
   padding: 100px 0px;
 }
@@ -2233,12 +2238,12 @@ body, p, h1, h2, h3, h4, h5, h6 {
   border-bottom: 80px solid #a640d0;
 }
 
-.subscrib_form {
+.mc-embedded-subscribe-form {
   max-width: 750px;
   margin: auto;
 }
 
-.subscrib_form input {
+.mc-embedded-subscribe-form input {
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: none;
@@ -2252,38 +2257,38 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #999999;
 }
 
-.subscrib_form input.placeholder {
+.mc-embedded-subscribe-form input.placeholder {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   color: #999999;
 }
 
-.subscrib_form input:-moz-placeholder {
+.mc-embedded-subscribe-form input:-moz-placeholder {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   color: #999999;
 }
 
-.subscrib_form input::-moz-placeholder {
+.mc-embedded-subscribe-form input::-moz-placeholder {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   color: #999999;
 }
 
-.subscrib_form input::-webkit-input-placeholder {
+.mc-embedded-subscribe-form input::-webkit-input-placeholder {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   color: #999999;
 }
 
-.subscrib_form input:focus {
+.mc-embedded-subscribe-form input:focus {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: 1px solid #f8395d;
 }
 
-.subscrib_form .input-group-btn .btn-default {
+.mc-embedded-subscribe-form .input-group-btn .btn-default {
   border: none;
   background: #e0e0e0;
   border-radius: 0px;
@@ -2303,7 +2308,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   transition: all 400ms linear 0s;
 }
 
-.subscrib_form .input-group-btn .btn-default:before {
+.mc-embedded-subscribe-form .input-group-btn .btn-default:before {
   content: '';
   position: absolute;
   top: 0;
@@ -2321,11 +2326,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
   z-index: -1;
 }
 
-.subscrib_form .input-group-btn .btn-default:hover {
+.mc-embedded-subscribe-form .input-group-btn .btn-default:hover {
   color: #fff;
 }
 
-.subscrib_form .input-group-btn .btn-default:hover:before {
+.mc-embedded-subscribe-form .input-group-btn .btn-default:hover:before {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
