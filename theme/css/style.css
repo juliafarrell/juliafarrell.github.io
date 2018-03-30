@@ -401,7 +401,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .main_menu_area .navbar-default .navbar-collapse .nav.navbar-nav li.submenu .dropdown-menu li a {
   line-height: 45px;
   border-bottom: 1px solid #f1f4f5;
-  color: #f8395d;
+  color: #B26ACA;
   padding: 0px 20px;
   text-shadow: none;
   position: relative;
@@ -415,7 +415,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   position: absolute;
   left: 0px;
   top: 0px;
-  background: #f8395d;
+  background: #B26ACA;
   height: 100%;
   width: 100%;
   z-index: -1;
