@@ -384,7 +384,7 @@ h1.big-title-1
 #portfolio
 {
     background-color: #365A6C;
-    background-image: url("demo-images/background_img_02.jpg"); 
+    background-image: url("images/clouds4.jpg");
     background-repeat: no-repeat; 
     background-position: center top; 
     background-size: auto;
@@ -393,12 +393,12 @@ h1.big-title-1
 
 #portfolio .section-title-holder
 {
-    background-color: rgb(255, 186, 66);
+    background-color: #365A6C;
 }
 
 #portfolio .section-title-holder span
 {
-    color: #e3a436;
+    color: #ffffff;
 }
 
 .page-template-page-portfolio .section
@@ -419,7 +419,7 @@ h1.big-title-1
     font-weight: 700;
     font-size: 20px;
     width: 430px;
-    background-color: #E74C78;
+    background-color: #5B575B;
     text-align: center;
 }
 

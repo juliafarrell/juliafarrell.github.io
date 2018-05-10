@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f8da89-fddf-49e7-83e7-268375aba159" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Boxus-HTML-documentation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/clouds.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/jf_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-portfolio2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/boobibutter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clouds2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clouds3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/clouds4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/giraffe doodle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/giraffe doodle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/normasite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="111" column="73" selection-start-line="111" selection-start-column="73" selection-end-line="111" selection-end-column="84" />
+            <state relative-caret-position="312">
+              <caret line="190" column="30" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
               <folding>
                 <element signature="e#1225#1307#0" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -37,11 +39,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="giraffe doodle.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/giraffe doodle.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="boobibutter.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/boobibutter.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="368" column="1" lean-forward="true" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
+            <state relative-caret-position="1458">
+              <caret line="600" column="30" selection-start-line="600" selection-start-column="30" selection-end-line="600" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -72,6 +84,7 @@
       <find>section-title-holder</find>
       <find>letter-sp</find>
       <find>service-con</find>
+      <find>portfolio</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,9 +117,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="205" />
+    <option name="x" value="204" />
     <option name="y" value="23" />
-    <option name="width" value="1235" />
+    <option name="width" value="1062" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -629,15 +642,15 @@
       <workItem from="1522290757815" duration="1842000" />
       <workItem from="1522387644325" duration="2964000" />
       <workItem from="1522447459341" duration="201000" />
-      <workItem from="1525915938711" duration="4845000" />
+      <workItem from="1525915938711" duration="6917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33069000" />
+    <option name="totallyTimeSpent" value="35141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="205" y="23" width="1235" height="877" extended-state="0" />
+    <frame x="204" y="23" width="1062" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -650,10 +663,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1706102" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1706102" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16518219" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19209039" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -761,15 +774,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="368" column="1" lean-forward="true" selection-start-line="368" selection-start-column="1" selection-end-line="368" selection-end-column="1" />
+        <state relative-caret-position="1458">
+          <caret line="600" column="30" selection-start-line="600" selection-start-column="30" selection-end-line="600" selection-end-column="30" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/boobibutter.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/giraffe doodle.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="111" column="73" selection-start-line="111" selection-start-column="73" selection-end-line="111" selection-end-column="84" />
+        <state relative-caret-position="312">
+          <caret line="190" column="30" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
           <folding>
             <element signature="e#1225#1307#0" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
