@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f8da89-fddf-49e7-83e7-268375aba159" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Design/cbeasts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juliafarrell.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boobibutter.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Design/boobibutter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/giraffe doodle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Design/giraffe doodle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/giraffe doodle.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Design/giraffe doodle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/normasite.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Design/normasite.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2148">
-              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+            <state relative-caret-position="99">
+              <caret line="151" column="56" selection-start-line="151" selection-start-column="56" selection-end-line="151" selection-end-column="56" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -43,11 +36,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9000">
-              <caret line="600" column="30" selection-start-line="600" selection-start-column="30" selection-end-line="600" selection-end-column="30" />
+            <state relative-caret-position="332">
+              <caret line="265" column="17" selection-start-line="265" selection-start-column="17" selection-end-line="265" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -79,6 +72,8 @@
       <find>letter-sp</find>
       <find>service-con</find>
       <find>portfolio</find>
+      <find>section</find>
+      <find>title-d</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,8 +91,8 @@
         <option value="$PROJECT_DIR$/breastFriends.html" />
         <option value="$PROJECT_DIR$/blog/blog1.html" />
         <option value="$PROJECT_DIR$/theme/css/style.css" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -110,7 +105,7 @@
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="97" />
     <option name="y" value="23" />
     <option name="width" value="1062" />
@@ -157,19 +152,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/Design" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/theme/img" />
+      <recent name="$PROJECT_DIR$/theme/img/blog" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/image" />
       <recent name="$PROJECT_DIR$/theme/img" />
       <recent name="$PROJECT_DIR$/theme/img/header-slider" />
       <recent name="$PROJECT_DIR$/theme/img/expert-team" />
       <recent name="$PROJECT_DIR$/theme" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/theme/img" />
-      <recent name="$PROJECT_DIR$/theme/img/blog" />
-      <recent name="$PROJECT_DIR$/image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -634,15 +629,15 @@
       <workItem from="1522387644325" duration="2964000" />
       <workItem from="1522447459341" duration="201000" />
       <workItem from="1525915938711" duration="7183000" />
-      <workItem from="1526152152231" duration="1130000" />
+      <workItem from="1526152152231" duration="2151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36537000" />
+    <option name="totallyTimeSpent" value="37558000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="23" width="1062" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -655,10 +650,10 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1706102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.1706102" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19209039" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14166667" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -752,13 +747,6 @@
     <entry file="file://$PROJECT_DIR$/breastFriends.html" />
     <entry file="file://$PROJECT_DIR$/blog/blog1.html" />
     <entry file="file://$PROJECT_DIR$/theme/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9000">
-          <caret line="600" column="30" selection-start-line="600" selection-start-column="30" selection-end-line="600" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/jf_logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -767,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2148">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="99">
+          <caret line="151" column="56" selection-start-line="151" selection-start-column="56" selection-end-line="151" selection-end-column="56" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -776,6 +764,13 @@
             <element signature="n#li#0;n#ul#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="265" column="17" selection-start-line="265" selection-start-column="17" selection-end-line="265" selection-end-column="17" />
         </state>
       </provider>
     </entry>
